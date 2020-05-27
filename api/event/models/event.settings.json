@@ -9,18 +9,18 @@
     "timestamps": true
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "Details": {
+    "details": {
       "type": "text"
     },
-    "Location": {
+    "location": {
       "type": "string",
       "required": true
     },
-    "Date": {
+    "date": {
       "type": "datetime",
       "required": true
     },
