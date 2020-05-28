@@ -10,10 +10,9 @@
   },
   "attributes": {
     "user": {
-      "unique": true,
+      "via": "profile",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "profile"
+      "model": "user"
     },
     "avatar": {
       "model": "file",

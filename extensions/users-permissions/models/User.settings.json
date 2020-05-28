@@ -54,16 +54,17 @@
       "configurable": false
     },
     "hostedEvents": {
-      "via": "host",
-      "collection": "event"
+      "collection": "event",
+      "via": "host"
     },
     "attendances": {
-      "via": "user",
-      "collection": "attendance"
+      "collection": "attendance",
+      "via": "user"
     },
     "profile": {
-      "via": "user",
-      "model": "profile"
+      "unique": true,
+      "model": "profile",
+      "via": "user"
     }
   }
 }
